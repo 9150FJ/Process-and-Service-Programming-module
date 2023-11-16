@@ -32,6 +32,22 @@ public class BusinessCourse extends Course{
         this.durationPractices=businessCourse.durationPractices;
     }
 
+    public String getBusinessAssociated() {
+        return businessAssociated;
+    }
+
+    public void setBusinessAssociated(String businessAssociated) {
+        this.businessAssociated = businessAssociated;
+    }
+
+    public int getDurationPractices() {
+        return durationPractices;
+    }
+
+    public void setDurationPractices(int durationPractices) {
+        this.durationPractices = durationPractices;
+    }
+
     @Override
     public String toString() {
         return super.toString()+" BusinessCourse{" +
