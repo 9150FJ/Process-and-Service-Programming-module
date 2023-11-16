@@ -2,7 +2,7 @@ package Exercise1;
 
 import java.util.Objects;
 
-public class Course {
+abstract public class  Course  {
     private String name;
     private String id;
     private int duration;
@@ -72,10 +72,10 @@ public class Course {
                 '}';
     }
 
-    @Override
+/*    @Override
     protected Course clone() throws CloneNotSupportedException {
-        return new Course(this);
-    }
+        return new Course();
+    }*/
 
     @Override
     public boolean equals(Object o) {
