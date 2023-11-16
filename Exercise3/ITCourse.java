@@ -26,6 +26,14 @@ public class ITCourse extends Course {
         this.typeSpecialization=itCourse.typeSpecialization;
     }
 
+    public TypeSpecialization getTypeSpecialization() {
+        return typeSpecialization;
+    }
+
+    public void setTypeSpecialization(TypeSpecialization typeSpecialization) {
+        this.typeSpecialization = typeSpecialization;
+    }
+
     @Override
     public String toString() {
         return super.toString() + " ITCourse{" +
@@ -47,4 +55,6 @@ public class ITCourse extends Course {
        return new ITCourse(this);
 
     }
+
+
 }

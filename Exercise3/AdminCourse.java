@@ -23,6 +23,14 @@ public class AdminCourse extends Course{
 
     }
 
+    public ArrayList<String> getDocuments() {
+        return documents;
+    }
+
+    public void setDocuments(ArrayList<String> documents) {
+        this.documents = documents;
+    }
+
     @Override
     public String toString() {
         return super.toString()+ " AdminCourse{" +
